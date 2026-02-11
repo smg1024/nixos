@@ -8,6 +8,7 @@ let
   mini = import ./plugins/mini.nix;
   utility = import ./plugins/utility.nix;
   binds = import ./plugins/binds.nix;
+  terminal = import ./plugins/terminal.nix;
   theme = import ./appearance/theme.nix;
   lsp = import ./lsp/lsp.nix;
   autocomplete = import ./lsp/autocomplete.nix;
@@ -28,6 +29,7 @@ in
           mini
           utility
           binds
+          terminal
           theme
           lsp
           autocomplete

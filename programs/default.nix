@@ -10,6 +10,7 @@
     ./nvf
     ./ripgrep.nix
     ./rofi.nix
+    ./starship.nix
     ./waybar.nix
     ./zoxide.nix
     ./zsh.nix
