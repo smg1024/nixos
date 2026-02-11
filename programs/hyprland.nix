@@ -4,9 +4,9 @@
     enable = true;
 
     settings = {
-      # Monitors
+      # Monitors 1600x900 1680x1050
       monitor = [
-        ",1600x900@60,auto,auto"
+        ",1680x900@60,auto,auto"
       ];
 
       # My Programs
