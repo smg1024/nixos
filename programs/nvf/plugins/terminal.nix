@@ -4,6 +4,7 @@
     enable = true;
     setupOpts = {
       direction = "horizontal";
+      size = 6;
     };
     mappings = {
       open = "<leader>tt";
