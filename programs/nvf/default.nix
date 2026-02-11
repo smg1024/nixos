@@ -11,6 +11,7 @@ let
   terminal = import ./plugins/terminal.nix;
   theme = import ./appearance/theme.nix;
   lsp = import ./lsp/lsp.nix;
+  treesitter = import ./lsp/treesitter.nix;
   autocomplete = import ./lsp/autocomplete.nix;
   languages = import ./lsp/languages;
 in
@@ -32,6 +33,7 @@ in
           terminal
           theme
           lsp
+          treesitter
           autocomplete
           languages
           ;
