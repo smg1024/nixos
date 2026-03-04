@@ -12,11 +12,11 @@
         modules-left = [
           "hyprland/workspaces"
           "custom/sep"
-          "hyprland/window"
-          "custom/sep"
         ];
 
-        modules-center = [ ];
+        modules-center = [
+          "hyprland/window"
+        ];
 
         modules-right = [
           "custom/sep"
